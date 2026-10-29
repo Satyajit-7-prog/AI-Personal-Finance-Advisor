@@ -1,0 +1,28 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# IDE and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+
+# Redundant or alternative model at project root
+ai_personal_finance_advisor_model.pkl
